@@ -1,0 +1,159 @@
+*{
+    font-family:Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+main {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(235, 235, 235);
+    margin: auto;
+    align-items: center;
+    }
+
+.register {
+    width: 100%;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+}
+.register div {
+    margin-top: 3%;
+}
+.register label {
+    margin-top: 5px;
+    font-style: italic;
+    font-size: larger;
+    align-items: stretch;
+}
+label {
+    cursor: default;
+}
+.register-ctrl {
+    border-radius: 10px;
+    border-style: none;
+    font-size: 16px;
+    padding: 10px;
+    width: 90%;
+  
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+button {
+    appearance: auto;
+   
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+.register-button {
+    margin: 25px 0;
+    font-size: larger;
+    border-radius: 5%;
+    border: none;
+    background-color: #03264C;
+    padding: 2%;
+    color: white;
+    transition: all 500ms;
+    box-shadow: #222222 2px;
+}
+input[type="radio" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 0px 5px;
+    padding: initial;
+    border: initial;
+}
+input {
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+input[type="password" i] {
+    -webkit-text-security: disc !important;
+    padding: 1px 2px;
+}
+.interest-categories {
+    display: flex;
+    width: 50%;
+    margin-left: 5%;
+    align-items: center;
+}
+
+@media (min-width: 481px){
+.loginmain h1 {
+    font-size: 300%;
+}
+.register div {
+    width: 50%;
+}
+.register {
+    justify-content: center;
+    align-items: center;
+}
+.register-button {
+    margin: 6% 0;
+    width: 0%;
+}
+.user-profile {
+    margin-bottom: 0;
+}
+.interest-categories {
+    margin-left: 44%
+}
+}
+@media (min-width: 801px){
+.register-button {
+    margin: 5% 0;
+    width: 50%;
+    padding: 1% 1%;
+}
+}
